@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Black+Ops+One&family=Luckiest+Guy&family=Pangolin&family=Permanent+Marker&family=Roboto:wght@100&family=Shadows+Into+Light&family=Viga&family=Young+Serif&display=swap');
+*{ 
+  margin: 0px;
+  padding: 0px;
+}
+#Menubar {
+    border: 7px solid #F25F09;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #F25F09;
+}
+#Menubar #ProductName {
+    float: left;
+    background-color: #F25F09;
+    color: black;
+    font-family: 'Luckiest Guy';
+    font-size: 7vh;
+    padding: 5px;
+    margin: 17px;
+}
+#Links {
+    display: inline;
+}
+#Menubar #Links a{
+    border: 2px solid black;
+    font-family: 'Young Serif';
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px;
+    margin-right: 20px;
+    margin-top: 21px;
+    float: right;
+    color: white;
+    opacity: .80;
+    position: relative;
+    top: 100%;
+}
+#Menubar #Links a:hover{ 
+    opacity: 1; transition: 0.4;
+}
+#A{background-color:black;}
+#B{background-color:black;}
+#C{background-color:black;}
+#D{background-color:black;}
+
+.Whole2 {
+    margin-top: 12vw;
+    margin-left: 2vw;
+    margin-bottom: 10vw;
+}
+#LeftBox {
+    float: left;
+    margin-left: 19px;
+    border: 3vh solid #F25F09;
+    background-color: #F25F09;
+    width: 15vw;
+    height: 28vh;
+    text-align: center;
+    border-radius: 15px;
+}
+#Position {
+    font-family: 'Pangolin';
+    margin-top: 25px;
+    margin-right: 4px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+.Whole3 {
+    border: 0.3vh solid #F25F09;
+    width: 50vw;
+    height: 68vh;
+    background-color: #F25F09;
+    border-radius: 15px;
+    margin-left: 319px;
+}
+#Center h1 {
+    font-family: 'Permanent Marker';
+    margin-left: 10px;
+}
+#Center p {
+    font-family: 'Permanent Marker';
+    margin-left: 10px;
+}
+
+.RightBox {
+    float: right;
+    border: 0.27vh solid #F25F09;
+    background-color: #F25F09;
+    position: relative;
+    bottom: 74.5vh;
+    width: 16.5vw;
+    height: 55vh;
+    margin-right: 40px;
+    margin-top: 34px;
+    border-radius: 15px;
+    overflow: 0px;
+}
+#Description img {
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+#Description p{
+    font-family: 'Pangolin';
+    text-align: center;
+    margin-top: 15px;
+}
+
